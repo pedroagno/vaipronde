@@ -4,13 +4,7 @@
 }
 
 
-@media (max-width: 768px) {
 
-  }
-  
-  @media (max-width: 480px) {
-
-  }
 .container{
   display:grid;
   grid-template-columns: 5fr 5fr 5fr ;
