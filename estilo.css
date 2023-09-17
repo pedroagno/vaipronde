@@ -2,22 +2,18 @@
   padding: 0%;
   margin: 0%;
 }
-
-
-
-.container{
-  display:grid;
-  grid-template-columns: 5fr 5fr 5fr ;
-  grid-template-rows: 2fr 5fr 8fr 4fr 4fr fr 3fr;
-  grid-template-areas: "h h h"
-                       "m m m"
-                       "a a a"
-                       "t t t"
-                       "s s s"
-                       "f2 f2 f2"
-                       "f f f";
-
-}
+  .container{
+    display:grid;
+    grid-template-columns: 5fr;
+    grid-template-rows: 1fr 3fr 4fr 2fr 4fr 2fr;
+    grid-template-areas: "h"
+                         "m"
+                         "a"
+                         "t"
+                         "s"
+                         "f";
+  
+  }
 
 .menu ul li a:hover {
 border-bottom: 5px solid midnightblue; 
@@ -152,11 +148,10 @@ background-color: DeepSkyBlue;
 color: MidnightBlue; 
 }
 aside{
-margin-bottom: 89px;
 grid-area: a;
 background-color: white;
 width: 100%;
-height: 100%;
+height: 40%;
 
 }
 
@@ -184,16 +179,8 @@ height: 100%;
 }
 footer{
 grid-area: f;
-background-color: black;
 width: 100%;
 height: 100%;
-}
-.footer2{
-grid-area: f2;
-width: 100%;
-height: 100%;
-background-color: white;
-position: relative;
 }
 footer h1{
 color:aliceblue;
@@ -233,20 +220,7 @@ text-align: center;
 font-size: 40px;
 color:skyblue;
 margin-top: 4%;
-}
-#vanpe{
-animation: moveCar 4s linear infinite;
-height:180px;
-width: 240px;
-}
-
-@keyframes moveCar {
-0% {
-  left: -60px; 
-}
-100% {
-  left: 100%; 
-}
+font-family: Arial, Helvetica, sans-serif;
 }
 
 .imagem-no-final {
@@ -254,26 +228,7 @@ position: absolute;
 bottom: 0; 
 }
 
-#cacto1 {
-left: 1070px; 
 
-}
-
-#cacto2 {
-left: 830px;
-}
-
-#cacto3 {
-left: 40px; 
-}
-
-#cacto4 {
-  left: 270px; 
-}
-
-#vanpe {
-left: 200px; 
-}
 
 .containerbox {
   display: flex;
@@ -308,18 +263,6 @@ left: 200px;
   flex-direction: column; 
   justify-content: flex-end; 
   border-radius: 20px;
-}
-.inner-chao1{
-  background-color: black;
-}
-.chao{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  color: #fff;
-  background-color: black;
-  margin-top: 30%;
 }
 
 .box-content {
@@ -367,6 +310,7 @@ color: #fff;
 
 footer{
   color:white;
+  background-color:DeepSkyBlue;
 }
 
 article h1{
@@ -384,3 +328,10 @@ article h1{
 .footer-list{
   margin-left: 2%;
 }
+
+#reservado{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7px;
+}
+
